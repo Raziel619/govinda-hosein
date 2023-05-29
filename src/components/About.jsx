@@ -32,26 +32,24 @@ const About = () => {
     <>
       <motion.div>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <h2 className={styles.sectionHeadText}>My Tech Stacks</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text=[17px] max-w-3xl leading-[30px]"
       >
-        Donec vitae diam malesuada, viverra dolor non, molestie ligula. Integer
-        porta accumsan ante, quis ornare ex mollis sit amet. Nunc id sem nunc.
-        Fusce in mauris sagittis, eleifend mi at, maximus felis. Donec feugiat
-        dolor vel eros maximus, quis semper elit consequat. Aenean in odio
-        cursus, volutpat mauris vel, posuere quam. Mauris et elementum est. Ut
-        tristique orci lacus, quis tempus tellus pulvinar quis. Proin eget ipsum
-        in orci ultricies porttitor non ut lacus. In congue, tortor quis
-        convallis ultricies, nulla nisl sollicitudin orci, pellentesque gravida
-        turpis augue ac nisl. Cras in laoreet sapien. Etiam a ante congue,
-        facilisis ipsum et, semper arcu. Phasellus porttitor velit mi, nec
-        ultricies nisi lobortis non. In pellentesque, orci id elementum
-        consectetur, lorem nulla tristique justo, sed ultricies felis magna a
-        sapien. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos.
+        I am a passionate and highly skilled software developer with a deep love
+        for crafting innovative solutions. With a strong foundation in
+        programming languages, frameworks, and development principles, I thrive
+        on tackling complex challenges and transforming them into elegant and
+        efficient solutions. My attention to detail, analytical thinking, and
+        continuous learning mindset enable me to stay at the forefront of the
+        industry, embracing new technologies and approaches. Collaborative by
+        nature, I excel in both individual tasks and team environments,
+        leveraging my excellent communication skills to foster effective
+        collaboration. With a relentless drive for excellence and a passion for
+        pushing boundaries, I am dedicated to delivering exceptional results and
+        contributing to the ever-evolving world of software development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
