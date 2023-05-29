@@ -23,10 +23,16 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Gowinda &nbsp;<span className="sm:block hidden">| JS Mastery</span>
+            Govinda Hosein &nbsp;
+            <span className="sm:block hidden">| Raziel619</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
+          <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+            <a href="https://www.raziel619.com/" target="_blank">
+              Blog
+            </a>
+          </li>
           {navLinks.map((link) => (
             <li
               key={link.id}
