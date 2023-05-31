@@ -7,14 +7,21 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+// Technologies
 import css from "./tech/css.png";
+import csharp from "./tech/csharp.png";
+import django from "./tech/django.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
+import flask from "./tech/flask.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import java from "./tech/java.png";
 import javascript from "./tech/javascript.png";
+import laravel from "./tech/laravel.png";
 import nodejs from "./tech/nodejs.png";
 import php from "./tech/php.png";
+import python from "./tech/python.jpg";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 
@@ -34,6 +41,9 @@ export {
   mobile,
   web,
   // Technologies
+  csharp,
+  django,
+  flask,
   github,
   menu,
   close,
@@ -42,9 +52,12 @@ export {
   figma,
   git,
   html,
+  java,
   javascript,
+  laravel,
   nodejs,
   php,
+  python,
   reactjs,
   tailwind,
   // Companies

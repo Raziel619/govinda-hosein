@@ -75,6 +75,18 @@ const languages = [
     icon: assets.php,
   },
   {
+    name: "C#",
+    icon: assets.csharp,
+  },
+  {
+    name: "Python",
+    icon: assets.python,
+  },
+  {
+    name: "Java",
+    icon: assets.java,
+  },
+  {
     name: "CSS 3",
     icon: assets.css,
   },
@@ -88,6 +100,18 @@ const frameworks = [
   {
     name: "Tailwind CSS",
     icon: assets.tailwind,
+  },
+  {
+    name: "Laravel",
+    icon: assets.laravel,
+  },
+  {
+    name: "Django",
+    icon: assets.django,
+  },
+  {
+    name: "Flask",
+    icon: assets.flask,
   },
 ];
 
