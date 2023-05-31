@@ -67,46 +67,14 @@ const services = [
   },
 ];
 
-const technologies = [
+const toolbox = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -119,6 +87,28 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+];
+
+const languages = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+];
+
+const frameworks = [
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
 ];
 
@@ -271,4 +261,12 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  toolbox,
+  languages,
+  frameworks,
+  experiences,
+  testimonials,
+  projects,
+};
