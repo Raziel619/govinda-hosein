@@ -13,7 +13,7 @@ const ToolboxItem = ({ tool, index }) => (
       <img
         src={tool.icon}
         title={tool.name}
-        className="h-16 w-16 p-2 bg-white rounded-full"
+        className="h-20 w-20 p-2 bg-white rounded-full"
         alt=""
       />
     </motion.div>
