@@ -6,10 +6,12 @@ import {
   Feedbacks,
   Hero,
   Navbar,
-  Tech,
+  Toolbox,
   Works,
   StarsCanvas,
+  Frameworks,
 } from "./components";
+import Languages from "./components/Languages";
 
 const App = () => {
   return (
@@ -21,7 +23,9 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        <Tech />
+        <Toolbox />
+        <Languages />
+        <Frameworks />
         <Works />
         <Feedbacks />
         <div className="relative z-0">
