@@ -87,10 +87,6 @@ const languages = [
     icon: assets.java,
   },
   {
-    name: "CSS 3",
-    icon: assets.css,
-  },
-  {
     name: "JavaScript",
     icon: assets.javascript,
   },
@@ -112,6 +108,14 @@ const frameworks = [
   {
     name: "Flask",
     icon: assets.flask,
+  },
+  {
+    name: "Flutter",
+    icon: assets.flutter,
+  },
+  {
+    name: "unity",
+    icon: assets.unity,
   },
 ];
 

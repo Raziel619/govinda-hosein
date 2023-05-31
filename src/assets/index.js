@@ -14,6 +14,7 @@ import django from "./tech/django.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import flask from "./tech/flask.png";
+import flutter from "./tech/flutter.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import java from "./tech/java.png";
@@ -24,6 +25,7 @@ import php from "./tech/php.png";
 import python from "./tech/python.jpg";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
+import unity from "./tech/unity.png";
 
 import cariri from "./company/cariri.jpg";
 import digicel from "./company/digicel.png";
@@ -44,6 +46,7 @@ export {
   csharp,
   django,
   flask,
+  flutter,
   github,
   menu,
   close,
@@ -60,6 +63,7 @@ export {
   python,
   reactjs,
   tailwind,
+  unity,
   // Companies
   cariri,
   digicel,
