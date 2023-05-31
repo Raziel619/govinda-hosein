@@ -1,25 +1,4 @@
-import {
-  cariri,
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  html,
-  css,
-  reactjs,
-  tailwind,
-  nodejs,
-  git,
-  figma,
-  docker,
-  carrent,
-  jobit,
-  tripguide,
-  uwi,
-  fasove,
-  digicel,
-} from "../assets";
+import * as assets from "../assets";
 
 export const navLinks = [
   {
@@ -39,72 +18,76 @@ export const navLinks = [
 const services = [
   {
     title: "Full Stack Web Developer",
-    icon: web,
+    icon: assets.web,
   },
   {
     title: "UI/UX Designer (Figma)",
-    icon: web,
+    icon: assets.web,
   },
   {
     title: "Content Creator",
-    icon: creator,
+    icon: assets.creator,
   },
   {
     title: "Game Developer (Unity)",
-    icon: web,
+    icon: assets.web,
   },
   {
     title: "Mobile App Developer (Flutter)",
-    icon: mobile,
+    icon: assets.mobile,
   },
   {
     title: "Automation Engineer",
-    icon: backend,
+    icon: assets.backend,
   },
 ];
 
 const toolbox = [
   {
     name: "React",
-    icon: reactjs,
+    icon: assets.reactjs,
   },
   {
     name: "Node JS",
-    icon: nodejs,
+    icon: assets.nodejs,
   },
   {
     name: "git",
-    icon: git,
+    icon: assets.git,
   },
   {
     name: "figma",
-    icon: figma,
+    icon: assets.figma,
   },
   {
     name: "docker",
-    icon: docker,
+    icon: assets.docker,
   },
 ];
 
 const languages = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: assets.html,
+  },
+  {
+    name: "PHP",
+    icon: assets.php,
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: assets.css,
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: assets.javascript,
   },
 ];
 
 const frameworks = [
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: assets.tailwind,
   },
 ];
 
@@ -112,7 +95,7 @@ const experiences = [
   {
     title: "ICT Technologist",
     company_name: "Caribbean Industrial Research Institute",
-    icon: cariri,
+    icon: assets.cariri,
     iconBg: "#FFFFFF",
     date: "September 2014 - September 2017",
     points: [
@@ -127,7 +110,7 @@ const experiences = [
   {
     title: "Associate Professional",
     company_name: "Department of Electrical and Computer Engineering, UWI",
-    icon: uwi,
+    icon: assets.uwi,
     iconBg: "#FFFFFF",
     date: "February 2019 - February 2020",
     points: [
@@ -140,7 +123,7 @@ const experiences = [
   {
     title: "Electrical and Computer Engineer",
     company_name: "FaSoVe",
-    icon: fasove,
+    icon: assets.fasove,
     iconBg: "#FFFFFF",
     date: "February 2020 - October 2020",
     points: [
@@ -152,7 +135,7 @@ const experiences = [
   {
     title: "Software Development and Design Engineer",
     company_name: "Digicel",
-    icon: digicel,
+    icon: assets.digicel,
     iconBg: "#FFFFFF",
     date: "November 2020 - Present",
     points: [
@@ -210,7 +193,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: assets.carrent,
     source_code_link: "https://github.com/",
   },
   {
@@ -231,7 +214,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: assets.jobit,
     source_code_link: "https://github.com/",
   },
   {
@@ -252,7 +235,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: assets.tripguide,
     source_code_link: "https://github.com/",
   },
 ];

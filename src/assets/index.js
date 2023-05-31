@@ -14,6 +14,7 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
+import php from "./tech/php.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 
@@ -32,6 +33,7 @@ export {
   creator,
   mobile,
   web,
+  // Technologies
   github,
   menu,
   close,
@@ -42,6 +44,7 @@ export {
   html,
   javascript,
   nodejs,
+  php,
   reactjs,
   tailwind,
   // Companies
