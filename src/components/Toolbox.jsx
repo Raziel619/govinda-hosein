@@ -3,8 +3,22 @@ import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { toolbox, languages, frameworks } from "../constants";
 import { styles } from "../styles";
-import { textVariant } from "../utils/motion";
+import { fadeIn, textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
+import Tilt from "react-tilt";
+
+const ToolboxItem = ({ tool, index }) => (
+  <Tilt>
+    <motion.div variants={fadeIn("", "spring", index * 0.5, 0.75)}>
+      <img
+        src={tool.icon}
+        title={tool.name}
+        className="h-16 w-16 p-2 bg-white rounded-full"
+        alt=""
+      />
+    </motion.div>
+  </Tilt>
+);
 
 const Toolbox = () => {
   return (
@@ -15,9 +29,10 @@ const Toolbox = () => {
       </motion.div>
 
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
-        {toolbox.map((tool) => (
+        {toolbox.map((tool, index) => (
           <div className="h-28 w-28" key={tool.name}>
-            <BallCanvas icon={tool.icon}></BallCanvas>
+            {/* <BallCanvas icon={tool.icon}></BallCanvas> */}
+            <ToolboxItem key={index} index={index} tool={tool} />
           </div>
         ))}
       </div>
