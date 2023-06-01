@@ -219,7 +219,7 @@ const projects = [
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: ["react", "mongodb", "tailwind"],
     image: assets.carrent,
-    source_code_link: "https://github.com/",
+    link: "https://github.com/",
   },
   {
     name: "Job IT",
@@ -227,7 +227,7 @@ const projects = [
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: ["react", "mongodb", "tailwind"],
     image: assets.jobit,
-    source_code_link: "https://github.com/",
+    link: "https://github.com/",
   },
   {
     name: "Trip Guide",
@@ -235,7 +235,7 @@ const projects = [
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: ["react", "mongodb", "tailwind"],
     image: assets.tripguide,
-    source_code_link: "https://github.com/",
+    link: "https://github.com/",
   },
 ];
 
