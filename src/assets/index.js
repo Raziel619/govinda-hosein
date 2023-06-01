@@ -12,9 +12,14 @@ import googleplay from "./googleplay.png";
 
 // Projects
 import allfoursmobile from "./projects/allfoursmobile.webp";
+import birdtap from "./projects/birdtap.png";
 import digiassist from "./projects/digiassist.webp";
+import farmvuemobile from "./projects/farmvuemobile.png";
 import floppypidgeon from "./projects/floppypidgeon.webp";
+import hitahfish from "./projects/hitahfish.png";
 import mydigicel from "./projects/mydigicel.webp";
+import protectorofthecosmos from "./projects/protectorofthecosmos.png";
+import typemesenpai from "./projects/typemesenpai.png";
 
 // Technologies
 import css from "./tech/css.png";
@@ -57,9 +62,14 @@ export {
   web,
   // Projects
   allfoursmobile,
+  birdtap,
   digiassist,
+  farmvuemobile,
   floppypidgeon,
+  hitahfish,
   mydigicel,
+  protectorofthecosmos,
+  typemesenpai,
   // Technologies
   csharp,
   dart,

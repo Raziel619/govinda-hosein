@@ -264,7 +264,7 @@ const projects = [
     name: "MyDigicel App",
     description:
       "Manage your account and complete all your Digicel transactions. Features include activate plans and subscriptions, pay your Digicel Bills using your credit/debit card, Top-up your account, check your balance and data usage, send credit to family & friends",
-    tags: ["Django", "React", "Tailwind"],
+    tags: ["Flutter", "RestAPI"],
     image: assets.mydigicel,
     links: [
       {
@@ -276,6 +276,104 @@ const projects = [
         icon: assets.googleplay,
         href: "https://play.google.com/store/apps/details?id=com.digicel.selfcare.mobile",
         title: "Google Play Link",
+      },
+    ],
+  },
+  {
+    name: "Type Me Senpai",
+    description:
+      "Type Me Senpai is a hyper-casual game where players can measure their typing speed on their mobile device.",
+    tags: ["Unity", "MobileGame"],
+    image: assets.typemesenpai,
+    links: [
+      {
+        icon: assets.applestore,
+        href: "https://apps.apple.com/us/app/type-me-senpai/id1575305113",
+        title: "Apple Store Link",
+      },
+      {
+        icon: assets.googleplay,
+        href: "https://play.google.com/store/apps/details?id=com.Raziel619.TypeMeSenpai",
+        title: "Google Play Link",
+      },
+    ],
+  },
+  {
+    name: "Hit Ah Fish",
+    description:
+      "Got the fastest fingers?! Test your might to top the leaderboard!",
+    tags: ["Unity", "MobileGame"],
+    image: assets.hitahfish,
+    links: [
+      {
+        icon: assets.applestore,
+        href: "https://apps.apple.com/us/app/hit-ah-fish/id1576041171",
+        title: "Apple Store Link",
+      },
+      {
+        icon: assets.googleplay,
+        href: "https://play.google.com/store/apps/details?id=com.Raziel619.HitAhFish&hl=en&gl=US",
+        title: "Google Play Link",
+      },
+    ],
+  },
+  {
+    name: "Protector Of The Cosmos",
+    description: "Use your ship to save the galaxy!",
+    tags: ["Unity", "MobileGame"],
+    image: assets.protectorofthecosmos,
+    links: [
+      {
+        icon: assets.applestore,
+        href: "https://apps.apple.com/us/app/protector-of-the-cosmos/id1575105139",
+        title: "Apple Store Link",
+      },
+      {
+        icon: assets.googleplay,
+        href: "https://play.google.com/store/apps/details?id=com.Raziel619.ProtectorOfTheCosmos",
+        title: "Google Play Link",
+      },
+    ],
+  },
+  {
+    name: "Bird Tap",
+    description: "These birds said you’re too slow, prove them wrong!",
+    tags: ["Unity", "MobileGame"],
+    image: assets.birdtap,
+    links: [
+      {
+        icon: assets.applestore,
+        href: "https://apps.apple.com/us/app/bird-tap/id1576066324",
+        title: "Apple Store Link",
+      },
+      {
+        icon: assets.googleplay,
+        href: "https://play.google.com/store/apps/details?id=com.Raziel619.BirdTap",
+        title: "Google Play Link",
+      },
+    ],
+  },
+  {
+    name: "FarmVue",
+    description:
+      "FarmVue is a mobile app built for farmers to track their produce",
+    tags: ["Flutter", "RestAPI"],
+    image: assets.farmvuemobile,
+    links: [
+      {
+        icon: assets.applestore,
+        href: "https://apps.apple.com/us/app/good-agricultural-practices/id1569043989",
+        title: "Apple Store Link",
+      },
+      {
+        icon: assets.googleplay,
+        href: "https://play.google.com/store/apps/details?id=com.raziel619.gaptt_mobile",
+        title: "Google Play Link",
+      },
+      {
+        icon: assets.linkicon,
+        href: "https://farmvue.app/",
+        title: "Link",
       },
     ],
   },
