@@ -10,6 +10,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "tech",
+    title: "Technologies",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -85,6 +89,10 @@ const languages = [
   {
     name: "Java",
     icon: assets.java,
+  },
+  {
+    name: "Dart",
+    icon: assets.dart,
   },
   {
     name: "JavaScript",
@@ -167,10 +175,12 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "November 2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "A core developer of the MyDigicel App. Built in flutter and published to both google play and ios stores. Has more than 10 million downloads",
+      "Designed, developed and deployed DigiAssist, a platform for both customers and internal agents to troubleshoot modem issues with an automated flow. UI/UX designs were created in figma",
+      "Implemented responsive design and ensured cross-browser compatibility",
+      "Automated manual tasks across the entire company using primarily python",
+      "Delivered",
+      "Effectively deployed numerous web applications to meet business needs",
     ],
   },
 ];

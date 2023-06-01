@@ -10,6 +10,7 @@ import close from "./close.svg";
 // Technologies
 import css from "./tech/css.png";
 import csharp from "./tech/csharp.png";
+import dart from "./tech/dart.png";
 import django from "./tech/django.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -44,6 +45,7 @@ export {
   web,
   // Technologies
   csharp,
+  dart,
   django,
   flask,
   flutter,
