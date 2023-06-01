@@ -13,6 +13,7 @@ import googleplay from "./googleplay.png";
 // Projects
 import allfoursmobile from "./projects/allfoursmobile.webp";
 import birdtap from "./projects/birdtap.png";
+import blog from "./projects/blog.png";
 import digiassist from "./projects/digiassist.webp";
 import farmvuemobile from "./projects/farmvuemobile.png";
 import floppypidgeon from "./projects/floppypidgeon.webp";
@@ -63,6 +64,7 @@ export {
   // Projects
   allfoursmobile,
   birdtap,
+  blog,
   digiassist,
   farmvuemobile,
   floppypidgeon,

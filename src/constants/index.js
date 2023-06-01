@@ -214,6 +214,20 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Raziel619 - Blog",
+    description:
+      "Blog containing tutorial posts, app release notes and public software packages and repos.",
+    tags: ["Wordpress"],
+    image: assets.blog,
+    links: [
+      {
+        icon: assets.linkicon,
+        href: "https://www.raziel619.com/",
+        title: "Link",
+      },
+    ],
+  },
+  {
     name: "All Fours Mobile",
     description:
       "Hang ah Jack! Kick ah Six! All Fours Mobile is completely free to play. Release provides players a strong AI to play with and against during spare time in this tradition four (4) player game.",
@@ -229,6 +243,11 @@ const projects = [
         icon: assets.googleplay,
         href: "https://play.google.com/store/apps/details?id=om.Raziel619",
         title: "Google Play Store Link",
+      },
+      {
+        icon: assets.linkicon,
+        href: "https://dev.raziel619.com/afm/",
+        title: "Dashboard",
       },
     ],
   },
