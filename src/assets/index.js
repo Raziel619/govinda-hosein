@@ -7,6 +7,14 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import applestore from "./applestore.png";
+import googleplay from "./googleplay.png";
+
+// Projects
+import allfoursmobile from "./projects/allfoursmobile.webp";
+import digiassist from "./projects/digiassist.webp";
+import floppypidgeon from "./projects/floppypidgeon.webp";
+import mydigicel from "./projects/mydigicel.webp";
 
 // Technologies
 import css from "./tech/css.png";
@@ -39,12 +47,19 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  applestore,
+  googleplay,
   linkicon,
   logo,
   backend,
   creator,
   mobile,
   web,
+  // Projects
+  allfoursmobile,
+  digiassist,
+  floppypidgeon,
+  mydigicel,
   // Technologies
   csharp,
   dart,

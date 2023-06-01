@@ -214,28 +214,70 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "All Fours Mobile",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: ["react", "mongodb", "tailwind"],
-    image: assets.carrent,
-    link: "https://github.com/",
+      "Hang ah Jack! Kick ah Six! All Fours Mobile is completely free to play. Release provides players a strong AI to play with and against during spare time in this tradition four (4) player game.",
+    tags: ["Unity", "MobileGame"],
+    image: assets.allfoursmobile,
+    links: [
+      {
+        icon: assets.applestore,
+        href: "https://apps.apple.com/gb/app/all-fours-mobile/id1573349538",
+        title: "Apple Store Link",
+      },
+      {
+        icon: assets.googleplay,
+        href: "https://play.google.com/store/apps/details?id=om.Raziel619",
+        title: "Google Play Store Link",
+      },
+    ],
   },
   {
-    name: "Job IT",
+    name: "Floppy Pidgeon",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: ["react", "mongodb", "tailwind"],
-    image: assets.jobit,
-    link: "https://github.com/",
+      "Flap your way into the leader board in this addictive new title.",
+    tags: ["Unity", "MobileGame"],
+    image: assets.floppypidgeon,
+    links: [
+      {
+        icon: assets.googleplay,
+        href: "https://play.google.com/store/apps/details?id=com.Raziel619.FloppyPidgeon",
+        title: "Google Play Store Link",
+      },
+    ],
   },
   {
-    name: "Trip Guide",
+    name: "DigiAssist",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: ["react", "mongodb", "tailwind"],
-    image: assets.tripguide,
-    link: "https://github.com/",
+      "DigiAssist is the ultimate solution hub for all your Digicel product and service issues. With a comprehensive list of automated tools, you can troubleshoot any problem from the comfort of your own home.",
+    tags: ["Django", "React", "Tailwind"],
+    image: assets.digiassist,
+    links: [
+      {
+        icon: assets.linkicon,
+        href: "https://service.digiceltt.com/digiassist/",
+        title: "Link",
+      },
+    ],
+  },
+  {
+    name: "MyDigicel App",
+    description:
+      "Manage your account and complete all your Digicel transactions. Features include activate plans and subscriptions, pay your Digicel Bills using your credit/debit card, Top-up your account, check your balance and data usage, send credit to family & friends",
+    tags: ["Django", "React", "Tailwind"],
+    image: assets.mydigicel,
+    links: [
+      {
+        icon: assets.applestore,
+        href: "https://apps.apple.com/gb/app/mydigicel/id1039460951",
+        title: "Apple Store Link",
+      },
+      {
+        icon: assets.googleplay,
+        href: "https://play.google.com/store/apps/details?id=com.digicel.selfcare.mobile",
+        title: "Google Play Link",
+      },
+    ],
   },
 ];
 

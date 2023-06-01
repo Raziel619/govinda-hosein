@@ -13,7 +13,15 @@ const TagColors = [
   "pink-text-gradient",
 ];
 
-const ProjectCard = ({ index, name, description, image, tags, link }) => {
+const ProjectCard = ({
+  index,
+  name,
+  description,
+  image,
+  tags,
+  link,
+  links,
+}) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       {" "}
@@ -27,17 +35,21 @@ const ProjectCard = ({ index, name, description, image, tags, link }) => {
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={linkicon}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+          <div className="absolute inset-0 flex m-3 card-img_hover">
+            {links.map((link, index) => (
+              <div
+                onClick={() => window.open(link.href, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mx-1"
+                key={index}
+                title={link.title}
+              >
+                <img
+                  src={link.icon}
+                  alt="github"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            ))}
           </div>
         </div>
         <div className="mt-5">
