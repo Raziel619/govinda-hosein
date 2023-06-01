@@ -7,6 +7,12 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+const TagColors = [
+  "blue-text-gradient",
+  "green-text-gradient",
+  "pink-text-gradient",
+];
+
 const ProjectCard = ({
   index,
   name,
@@ -47,9 +53,12 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-              #{tag.name}
+          {tags.map((tag, index) => (
+            <p
+              key={index}
+              className={`text-[14px] ${TagColors[index % TagColors.length]}`}
+            >
+              #{tag}
             </p>
           ))}
         </div>
@@ -87,4 +96,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
