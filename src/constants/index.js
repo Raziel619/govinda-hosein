@@ -412,6 +412,14 @@ const projects = [
   },
 ];
 
+const externalLinks = [
+  {
+    title: "title",
+    link: "link",
+    image: assets.googleplay,
+  },
+];
+
 export {
   services,
   toolbox,

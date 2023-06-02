@@ -11,7 +11,7 @@ const Frameworks = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Technologies</p>
-        <h2 className={styles.sectionHeadText}>Frameworks</h2>
+        <h2 className={styles.sectionHeadText}>Frameworks.</h2>
       </motion.div>
 
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">

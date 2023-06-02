@@ -12,6 +12,7 @@ import {
   Frameworks,
 } from "./components";
 import Languages from "./components/Languages";
+import Externals from "./components/Externals";
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
         <Toolbox />
         <Languages />
         <Works />
-        <Feedbacks />
+        <Externals />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
