@@ -54,17 +54,20 @@ import fasove from "./company/fasove.png";
 import uwi from "./company/uwi.jpg";
 
 export {
+  // Icons
   applestore,
+  backend,
+  creator,
   googleplay,
   linkicon,
   logo,
-  backend,
-  creator,
   mobile,
   web,
+
   // Externals
   googlescholar,
   linkedin,
+
   // Projects
   allfoursmobile,
   birdtap,
@@ -77,23 +80,24 @@ export {
   mydigicel,
   protectorofthecosmos,
   typemesenpai,
+
   // Technologies
+  css,
+  close,
   csharp,
   dart,
   django,
-  flask,
-  flutter,
-  github,
-  menu,
-  close,
-  css,
   docker,
   figma,
+  flask,
+  flutter,
   git,
+  github,
   html,
   java,
   javascript,
   laravel,
+  menu,
   nodejs,
   php,
   python,
