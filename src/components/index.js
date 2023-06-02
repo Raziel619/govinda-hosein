@@ -7,7 +7,6 @@ import Languages from "./Languages";
 import Frameworks from "./Frameworks";
 import Experience from "./Experience";
 import Works from "./Works";
-import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 
 export {
@@ -19,7 +18,6 @@ export {
   Frameworks,
   Experience,
   Works,
-  Feedbacks,
   Contact,
   BallCanvas,
   ComputersCanvas,

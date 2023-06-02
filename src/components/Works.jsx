@@ -1,10 +1,8 @@
 import React from "react";
 import Tilt from "react-tilt";
-import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
 
 const TagColors = [
   "blue-text-gradient",
@@ -12,15 +10,7 @@ const TagColors = [
   "pink-text-gradient",
 ];
 
-const ProjectCard = ({
-  index,
-  name,
-  description,
-  image,
-  tags,
-  link,
-  links,
-}) => {
+const ProjectCard = ({ name, description, image, tags, links }) => {
   return (
     <Tilt
       options={{ max: 45, scale: 1, speed: 450 }}

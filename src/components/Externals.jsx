@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { externalLinks, testimonials } from "../constants";
+import { externalLinks } from "../constants";
 import Tilt from "react-tilt";
 
 const ExternalCard = ({ index, link, title, subtitle, image }) => (
