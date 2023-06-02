@@ -53,10 +53,6 @@ import digicel from "./company/digicel.png";
 import fasove from "./company/fasove.png";
 import uwi from "./company/uwi.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 export {
   applestore,
   googleplay,
@@ -109,8 +105,4 @@ export {
   digicel,
   fasove,
   uwi,
-  // Products
-  carrent,
-  jobit,
-  tripguide,
 };
