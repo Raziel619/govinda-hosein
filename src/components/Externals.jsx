@@ -28,20 +28,16 @@ const ExternalCard = ({ index, link, title, subtitle, image }) => (
 
 const Externals = () => {
   return (
-    <div className="mt-4 bg-black-100 rounded-[20px]">
-      <div className={`${styles.padding} bg-tertiary rounded-2xl`}>
-        <motion.div variants={textVariant()}>
+    <div className="bg-black-100 rounded-[20px]">
+      <div className={` bg-tertiary rounded-2xl`}>
+        <motion.div variants={textVariant()} className="p-8">
           <p className={styles.sectionSubText}>My Other Works</p>
           <h2 className={styles.sectionHeadText}>External Links.</h2>
         </motion.div>
       </div>
       <div className={`${styles.paddingX} mt-12 pb-14 flex flex-wrap gap-7`}>
         {externalLinks.map((external, index) => (
-          <ExternalCard
-            key={external.name}
-            index={index}
-            {...external}
-          ></ExternalCard>
+          <ExternalCard key={index} index={index} {...external}></ExternalCard>
         ))}
       </div>
     </div>
