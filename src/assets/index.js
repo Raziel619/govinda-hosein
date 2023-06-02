@@ -10,6 +10,10 @@ import close from "./close.svg";
 import applestore from "./applestore.png";
 import googleplay from "./googleplay.png";
 
+// Externals
+import googlescholar from "./externals/googlescholar.png";
+import linkedin from "./externals/linkedin.webp";
+
 // Projects
 import allfoursmobile from "./projects/allfoursmobile.webp";
 import birdtap from "./projects/birdtap.png";
@@ -62,6 +66,9 @@ export {
   creator,
   mobile,
   web,
+  // Externals
+  googlescholar,
+  linkedin,
   // Projects
   allfoursmobile,
   birdtap,

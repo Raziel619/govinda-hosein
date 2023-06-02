@@ -3,59 +3,44 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { testimonials } from "../constants";
+import { externalLinks, testimonials } from "../constants";
+import Tilt from "react-tilt";
 
-const ExternalCard = ({
-  index,
-  testimonial,
-  name,
-  designation,
-  company,
-  image,
-}) => (
-  <motion.div
-    variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
-  >
-    <p className="text-white font-black text-[48px]">"</p>
-    <div className="mt-1">
-      <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
-      <div className="mt-7 flex justify-between items-center gap-1">
-        <div className="flex-1 flex flex-col">
-          <p className="text-white font-medium text-[16px]">
-            <span className="blue-text-gradient">@</span> {name}
-          </p>
-          <p className="mt-1 text-secondary text-[12px]">
-            {designation} of {company}
-          </p>
-        </div>
+const ExternalCard = ({ index, link, title, subtitle, image }) => (
+  <Tilt>
+    <motion.div
+      variants={fadeIn("", "spring", index * 0.5, 0.75)}
+      className="bg-black-200 px-10 py-5 rounded-3xl xs:w-[320px] w-full"
+    >
+      <div className="flex gap-4 items-center">
         <img
           src={image}
-          alt={`feedback-by-${name}`}
-          className="w-10 h-10 rounded-full object-cover"
+          alt="Image"
+          className="w-16 h-16 rounded-full bg-tertiary p-4 "
         />
+        <a href={link} className="hover:underline" target="_blank">
+          {title} <br /> {subtitle}
+        </a>
       </div>
-    </div>
-  </motion.div>
+    </motion.div>
+  </Tilt>
 );
 
 const Externals = () => {
   return (
-    <div className="mt-12 bg-black-100 rounded-[20px]">
-      <div
-        className={`${styles.padding} bg-tertiary rounded-2xl min-h-[200px]`}
-      >
+    <div className="mt-4 bg-black-100 rounded-[20px]">
+      <div className={`${styles.padding} bg-tertiary rounded-2xl`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>My Other Works</p>
           <h2 className={styles.sectionHeadText}>External Links.</h2>
         </motion.div>
       </div>
-      <div className={`${styles.paddingX} mt-20 pb-14 flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
+      <div className={`${styles.paddingX} mt-12 pb-14 flex flex-wrap gap-7`}>
+        {externalLinks.map((external, index) => (
           <ExternalCard
-            key={testimonial.name}
+            key={external.name}
             index={index}
-            {...testimonial}
+            {...external}
           ></ExternalCard>
         ))}
       </div>

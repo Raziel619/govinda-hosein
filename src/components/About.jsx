@@ -2,7 +2,7 @@ import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { services } from "../constants";
+import { externalLinks } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
@@ -53,12 +53,12 @@ const About = () => {
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
+        {externalLinks.map((link, index) => (
           <ServiceCard
-            key={service.title}
+            key={link.title}
             index={index}
-            title={service.title}
-            icon={service.icon}
+            title={link.title}
+            icon={link.image}
           />
         ))}
       </div>

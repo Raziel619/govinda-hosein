@@ -414,13 +414,27 @@ const projects = [
 
 const externalLinks = [
   {
-    title: "title",
-    link: "link",
-    image: assets.googleplay,
+    title: "Google Scholars",
+    subtitle: "(7 Publications)",
+    link: "https://scholar.google.com/citations?user=Lm_u-F0AAAAJ",
+    image: assets.googlescholar,
+  },
+  {
+    title: "Github",
+    subtitle: "(>17 Public Repos)",
+    link: "https://github.com/Raziel619",
+    image: assets.github,
+  },
+  {
+    title: "LinkedIn",
+    subtitle: "",
+    link: "https://tt.linkedin.com/in/govinda-hosein-94b8ab71",
+    image: assets.linkedin,
   },
 ];
 
 export {
+  externalLinks,
   services,
   toolbox,
   languages,
