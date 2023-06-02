@@ -1,5 +1,6 @@
 import React from "react";
 import Tilt from "react-tilt";
+import * as assets from "../assets";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -30,28 +31,33 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>About Me.</h2>
-      </motion.div>
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text=[17px] max-w-3xl leading-[30px]"
-      >
-        I am a passionate and highly skilled software developer with a deep love
-        for crafting innovative solutions. With a strong foundation in
-        programming languages, frameworks, and development principles, I thrive
-        on tackling complex challenges and transforming them into elegant and
-        efficient solutions. My attention to detail, analytical thinking, and
-        continuous learning mindset enable me to stay at the forefront of the
-        industry, embracing new technologies and approaches. Collaborative by
-        nature, I excel in both individual tasks and team environments,
-        leveraging my excellent communication skills to foster effective
-        collaboration. With a relentless drive for excellence and a passion for
-        pushing boundaries, I am dedicated to delivering exceptional results and
-        contributing to the ever-evolving world of software development.
-      </motion.p>
-
+      <div className="flex flex-wrap gap-10">
+        <img src={assets.logo} className="w-52 h-52 mx-auto md:mx-0" />
+        <div>
+          <motion.div>
+            <p className={styles.sectionSubText}>Introduction</p>
+            <h2 className={styles.sectionHeadText}>About Me.</h2>
+          </motion.div>
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className="mt-4 text-secondary text=[17px] max-w-3xl leading-[30px]"
+          >
+            I am a passionate and highly skilled software developer with a deep
+            love for crafting innovative solutions. With a strong foundation in
+            programming languages, frameworks, and development principles, I
+            thrive on tackling complex challenges and transforming them into
+            elegant and efficient solutions. My attention to detail, analytical
+            thinking, and continuous learning mindset enable me to stay at the
+            forefront of the industry, embracing new technologies and
+            approaches. Collaborative by nature, I excel in both individual
+            tasks and team environments, leveraging my excellent communication
+            skills to foster effective collaboration. With a relentless drive
+            for excellence and a passion for pushing boundaries, I am dedicated
+            to delivering exceptional results and contributing to the
+            ever-evolving world of software development.
+          </motion.p>
+        </div>
+      </div>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((link, index) => (
           <ServiceCard
