@@ -396,6 +396,20 @@ const projects = [
       },
     ],
   },
+  {
+    name: "Crypto Of The Day",
+    description:
+      "Crypto Of The Day, an app that introduces you to a new cryptocurrency project every day. By regularly looking at new projects, you will naturally develop the ability to distinguish between a good investment and a bad one.",
+    tags: ["Flutter", "RestAPI", "CryptoCurrency"],
+    image: assets.cryptooftheday,
+    links: [
+      {
+        icon: assets.googleplay,
+        href: "https://play.google.com/store/apps/details?id=com.raziel619.crypto_of_the_day",
+        title: "Google Play Link",
+      },
+    ],
+  },
 ];
 
 export {

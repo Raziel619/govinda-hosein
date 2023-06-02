@@ -14,6 +14,7 @@ import googleplay from "./googleplay.png";
 import allfoursmobile from "./projects/allfoursmobile.webp";
 import birdtap from "./projects/birdtap.png";
 import blog from "./projects/blog.png";
+import cryptooftheday from "./projects/cryptooftheday.png";
 import digiassist from "./projects/digiassist.webp";
 import farmvuemobile from "./projects/farmvuemobile.png";
 import floppypidgeon from "./projects/floppypidgeon.webp";
@@ -65,6 +66,7 @@ export {
   allfoursmobile,
   birdtap,
   blog,
+  cryptooftheday,
   digiassist,
   farmvuemobile,
   floppypidgeon,
