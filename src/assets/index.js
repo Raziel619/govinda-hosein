@@ -4,14 +4,14 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import github from "./externals/github.webp";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import applestore from "./applestore.png";
 import googleplay from "./googleplay.png";
 
 // Externals
-import googlescholar from "./externals/googlescholar.png";
+import googlescholar from "./externals/googlescholar.webp";
 import linkedin from "./externals/linkedin.webp";
 
 // Projects
