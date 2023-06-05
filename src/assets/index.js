@@ -22,10 +22,10 @@ import cryptooftheday from "./projects/cryptooftheday.webp";
 import digiassist from "./projects/digiassist.webp";
 import farmvuemobile from "./projects/farmvuemobile.webp";
 import floppypidgeon from "./projects/floppypidgeon.webp";
-import hitahfish from "./projects/hitahfish.png";
+import hitahfish from "./projects/hitahfish.webp";
 import mydigicel from "./projects/mydigicel.webp";
-import protectorofthecosmos from "./projects/protectorofthecosmos.png";
-import typemesenpai from "./projects/typemesenpai.png";
+import protectorofthecosmos from "./projects/protectorofthecosmos.webp";
+import typemesenpai from "./projects/typemesenpai.webp";
 
 // Technologies
 import css from "./tech/css.png";
