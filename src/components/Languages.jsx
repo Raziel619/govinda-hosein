@@ -12,7 +12,7 @@ const LanguageItem = ({ language, index }) => (
       <img
         src={language.icon}
         title={language.name}
-        className="h-16 w-16 p-2 bg-white rounded-md"
+        className="h-20 w-20 p-2 bg-white rounded-full"
         alt=""
       />
     </motion.div>
@@ -30,7 +30,6 @@ const Languages = () => {
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
         {languages.map((language, index) => (
           <div className="h-28 w-28" key={language.name} title={language.name}>
-            {/* <BallCanvas icon={language.icon}></BallCanvas> */}
             <LanguageItem index={index} language={language} />
           </div>
         ))}

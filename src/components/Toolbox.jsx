@@ -1,7 +1,6 @@
 import React from "react";
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { toolbox, languages, frameworks } from "../constants";
+import { toolbox } from "../constants";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
@@ -31,7 +30,6 @@ const Toolbox = () => {
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
         {toolbox.map((tool, index) => (
           <div className="h-28 w-28" key={tool.name} title={tool.name}>
-            {/* <BallCanvas icon={tool.icon}></BallCanvas> */}
             <ToolboxItem key={index} index={index} tool={tool} />
           </div>
         ))}

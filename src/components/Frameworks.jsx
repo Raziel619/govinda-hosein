@@ -1,10 +1,23 @@
 import React from "react";
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { toolbox, languages, frameworks } from "../constants";
+import { frameworks } from "../constants";
 import { styles } from "../styles";
-import { textVariant } from "../utils/motion";
+import { fadeIn, textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
+import Tilt from "react-tilt";
+
+const FrameworkItem = ({ framework, index }) => (
+  <Tilt>
+    <motion.div variants={fadeIn("", "spring", index * 0.5, 0.75)}>
+      <img
+        src={framework.icon}
+        title={framework.name}
+        className="h-20 w-20 p-2 bg-white rounded-full"
+        alt=""
+      />
+    </motion.div>
+  </Tilt>
+);
 
 const Frameworks = () => {
   return (
@@ -15,13 +28,13 @@ const Frameworks = () => {
       </motion.div>
 
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
-        {frameworks.map((framework) => (
+        {frameworks.map((framework, index) => (
           <div
             className="h-28 w-28"
             key={framework.name}
             title={framework.name}
           >
-            <BallCanvas icon={framework.icon}></BallCanvas>
+            <FrameworkItem key={index} index={index} framework={framework} />
           </div>
         ))}
       </div>
